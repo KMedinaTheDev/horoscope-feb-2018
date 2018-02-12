@@ -1,0 +1,64 @@
+body{
+  background-color: silver;
+
+}
+button{
+  background-color: purple;
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  height:80px;
+  width:30%;
+  margin-left:2%;
+}
+footer{
+  clear: both;
+  font-size: 2em;
+  margin-left: 42%;
+}
+h1{
+    font-size: 3em;
+}
+h1, h2{
+  margin-left: 40%;
+  color: purple;
+  float: left;
+  width: 100%;
+}
+h2{
+  font-size: 1.8em;
+}
+
+
+input{
+  height:80px;
+  width:30%;
+  margin-left: 3%;
+}
+#zodiacContain{
+  margin-right: 15%;
+}
+#zodiacResult{
+  float: left;
+  text-align: left;
+  font-size: 2em;
+  line-height: 60px;
+  padding:10px;
+  height:400px;
+  width:50%;
+  color: white;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67WuZoQMyd9Drj6FGKEeOtGqBUGZkFg7EMSZpxfHok12-2N87dg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#zodiac{
+  float: left;
+  background: purple;
+  color:white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.4em;
+  font-family: monospace;
+  font-weight: bold;
+}
