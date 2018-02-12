@@ -64,7 +64,7 @@ function horoscope(){
         document.getElementById("zodiacResult").innerHTML="Pisces~The greatest thing you’ll ever learn is just to love, and be loved in return.";
   }
   else {
-    alert("OOPS! Please check the dates enteres are in the following format- dd and mm!");
+    alert("OOPS! Please check that the dates entered are in the following format- dd and mm");
   }
 }
 
