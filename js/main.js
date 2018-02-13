@@ -68,10 +68,10 @@ function horoscope(){
   }
 }
 
-function zodiacBtn(){
-  var astroReading= horoscope()
-  displayZodiac(horoscope);
-}
+// function zodiacBtn(){
+//   var astroReading= horoscope()
+//   displayZodiac(horoscope);
+// }
 //alert (zodiacBtn);
 
 
