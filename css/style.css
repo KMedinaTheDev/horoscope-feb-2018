@@ -8,7 +8,7 @@ body{
   background-color: silver;
   background: url("../images/cosmosbg.jpg") no-repeat;
   background-size: cover;
-  width:100%;
+  /* width:100%; */
 
 }
 button{
@@ -21,30 +21,23 @@ button{
   color:gray;
   /* font-family: 'Dosis', sans-serif; */
 }
-footer{
-  clear: both;
-  font-size: 2em;
-  margin-left: 40%;
-  color:rgb(24, 126, 114);
-}
+
 h1{
-  width: 100%;
-  font-size: 3.5em;
+  width: 45%;
+  font-size: 3.0em;
   color: purple;
-  margin-left: 35%;
+  margin: 1% 0 1% 30%;
 }
-h1, h2{
+
+/* h2{
   float: left;
-  width: 100%;
-}
-h2{
   font-size: 2.3em;
   font-weight: 900;
   color:rgba(177, 9, 145, 0.80);
   margin-left: 30%;
   width: 50%;
   padding-left: 5%;
-}
+} */
 
 input{
   float: left;
@@ -62,41 +55,32 @@ button, input, h2{
     border-style: hidden;
     background:url("../images/cosmosbg.jpg");
 }
+span{
+  clear: left;
+  font-size: 1.5em;
+  /* margin-top: 30%; */
+  color:rgb(24, 126, 114);
+}
 #zodiacContain{
-  margin: 1% 0 1% 30%;
-  border-radius: 50%;
-  border: 3px solid rgba(114, 24, 163, 0.81);
+  margin: 1% 0 1% 0%;
+  /* border-radius: 50%; */
+  /* border: 3px solid rgba(114, 24, 163, 0.81); */
   height:400px;
-  width:40%;
+  width:100%;
   float: left;
 }
 #zodiacResult{
   float: left;
   text-align: center;
-  padding-top: 19%;
-  margin: 1% 0 1% 1%;
+  padding: 10% 0 1% 0;
+  margin: 1% 0 1% 30%;
   font-size: 1.6em;
   line-height: 60px;
-  /* padding:10px; */
   height:410px;
-  width:100%;
+  width:45%;
   color:rgb(24, 126, 114);
-  background:url("../images/cosmosbg.jpg");
-  background-position: left;
-  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67WuZoQMyd9Drj6FGKEeOtGqBUGZkFg7EMSZpxfHok12-2N87dg"); */
-  background-size: auto;
+  background:url("../images/cosmos.gif");
+  background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
-
-/* #zodiac{ */
-  /* float: left; */
-  /* margin: 8% 0 1% 1%; */
-  /* background: purple; */
-  /* color:white; */
-  /* border: none; */
-  /* padding: 30px 15px; */
-  /* font-size: 1.4em; */
-  /* font-weight: bold; */
-  /* border: 1px solid white; */
-/* } */
